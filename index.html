@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exquisite Leather Bag - Premium Quality</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff9fa;
+            color: #5a3e36;
+        }
+        
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .rose-bg {
+            background-color: #fff0f3;
+        }
+        
+        .soft-rose {
+            background-color: #ffebee;
+        }
+        
+        .dark-rose {
+            background-color: #f8bbd0;
+        }
+        
+        .promo-badge {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        .countdown-box {
+            background: linear-gradient(135deg, #f8bbd0 0%, #f48fb1 100%);
+        }
+        
+        .price-cut {
+            position: relative;
+        }
+        
+        .price-cut:before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            right: 0;
+            border-top: 2px solid #e53935;
+            transform: rotate(-10deg);
+        }
+        
+        .color-option {
+            transition: all 0.3s ease;
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 16px;
+            width: 160px;
+        }
+        
+        .color-option:hover {
+            background-color: #fff0f3;
+            transform: translateY(-3px);
+        }
+        
+        .color-option.active {
+            background-color: #fff0f3;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(216, 27, 96, 0.15);
+        }
+        
+        .color-option.active div:first-child {
+            border-color: #d81b60 !important;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial-card {
+            box-shadow: 0 10px 20px rgba(216, 27, 96, 0.1);
+        }
+    </style>
+</head>
+<body class="rose-bg">
+    <!-- Hero Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center py-8">
+            <img src="https://i.postimg.cc/fLwJx3NR/01.png" alt="Exquisite Leather Bag" class="w-full h-auto rounded-lg shadow-lg mx-auto">
+        </div>
+        
+        <!-- Product Title & Description -->
+        <div class="text-center mb-12 px-4">
+            <h1 class="title-font text-4xl md:text-5xl font-bold text-rose-800 mb-4">Exquisite Leather Bag</h1>
+            <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+                Tingkatkan gaya sehari-hari Anda dengan Tas Selempang Kulit Mewah ini—perpaduan sempurna antara keanggunan dan kepraktisan. Terbuat dari PU leather premium dengan tekstur halus dan mewah, tas chic ini dirancang untuk wanita modern yang aktif.
+            </p>
+        </div>
+        
+        <!-- Product Features -->
+        <div class="soft-rose rounded-xl p-8 mb-12 shadow-md">
+            <h2 class="title-font text-3xl font-bold text-center text-rose-800 mb-8">Keunggulan Produk</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="text-rose-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">High-Quality PU Leather</h3>
+                    <p class="text-gray-600">Tahan lama, ringan, dan mudah dibersihkan</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="text-rose-600 text-4xl mb-4">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Elegant Design</h3>
+                    <p class="text-gray-600">Siluet ramping dengan aksesori logam yang dipoles</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="text-rose-600 text-4xl mb-4">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Adjustable Strap</h3>
+                    <p class="text-gray-600">Gunakan sebagai tas bahu atau selempang untuk kenyamanan tanpa perlu memegang apa pun</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="text-rose-600 text-4xl mb-4">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Secure Closure</h3>
+                    <p class="text-gray-600">Ritsleting dan penutup untuk keamanan dan gaya ekstra</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Product Details -->
+        <div class="mb-16">
+            <h2 class="title-font text-3xl font-bold text-center text-rose-800 mb-8">Detail Produk</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://i.postimg.cc/RFVZWj73/02.png" alt="Bag Detail 1" class="w-full h-auto">
+                    <div class="p-4">
+                        <p class="text-gray-700">Desain kompartemen utama yang luas dengan saku dalam yang terorganisir untuk menyimpan barang-barang penting Anda.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://i.postimg.cc/D0N0kBbS/03.png" alt="Bag Detail 2" class="w-full h-auto">
+                    <div class="p-4">
+                        <p class="text-gray-700">Tali yang dapat disesuaikan dengan panjang hingga 120cm, memungkinkan Anda memakainya sebagai tas selempang atau tas bahu.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://i.postimg.cc/cJWHSK6B/04.png" alt="Bag Detail 3" class="w-full h-auto">
+                    <div class="p-4">
+                        <p class="text-gray-700">Aksesori logam premium yang tahan lama dan tidak mudah berkarat, memberikan sentuhan mewah pada tas Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Color Variants -->
+        <div class="mb-16">
+            <h2 class="title-font text-3xl font-bold text-center text-rose-800 mb-8">Pilihan Warna</h2>
+            <div class="flex justify-center gap-8 flex-wrap">
+                <div class="color-option active flex flex-col items-center">
+                    <div class="w-32 h-32 rounded-lg overflow-hidden shadow-lg border-4 border-rose-300">
+                        <img src="https://i.postimg.cc/fLwJx3NR/01.png" alt="Black Color" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-center mt-3 font-bold text-lg text-rose-800">Hitam</p>
+                    <div class="w-8 h-8 rounded-full bg-[#212121] mt-2 border-2 border-gray-300 shadow-inner" style="background: linear-gradient(135deg, #212121 0%, #424242 100%)"></div>
+                </div>
+                <div class="color-option flex flex-col items-center">
+                    <div class="w-32 h-32 rounded-lg overflow-hidden shadow-lg border-4 border-transparent">
+                        <img src="https://i.postimg.cc/PJLC3BFL/01.png" alt="Cream Color" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-center mt-3 font-bold text-lg text-rose-800">Cream</p>
+                    <div class="w-8 h-8 rounded-full mt-2 border-2 border-gray-300 shadow-inner" style="background: linear-gradient(135deg, #F5F5DC 0%, #F8F8E0 100%)"></div>
+                </div>
+                <div class="color-option flex flex-col items-center">
+                    <div class="w-32 h-32 rounded-lg overflow-hidden shadow-lg border-4 border-transparent">
+                        <img src="https://i.postimg.cc/RFVZWj73/02.png" alt="Dark Brown Color" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-center mt-3 font-bold text-lg text-rose-800">Cokelat Tua</p>
+                    <div class="w-8 h-8 rounded-full mt-2 border-2 border-gray-300 shadow-inner" style="background: linear-gradient(135deg, #5D4037 0%, #8D6E63 100%)"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Testimonials -->
+        <div class="mb-16">
+            <h2 class="title-font text-3xl font-bold text-center text-rose-800 mb-8">Testimoni Pelanggan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 font-bold text-xl">A</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Amanda Sari</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Tasnya sangat elegan dan bahannya premium. Saya sudah pakai 3 bulan masih seperti baru. Worth it banget untuk harganya!"</p>
+                </div>
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 font-bold text-xl">D</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Dian Permata</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Pengiriman cepat dan packing rapi. Tasnya ringan tapi muat banyak barang. Warna hitamnya klasik banget, cocok untuk acara formal maupun casual."</p>
+                </div>
+                <div class="testimonial-card bg-white p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 font-bold text-xl">R</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Rina Wijaya</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Saya beli warna cream dan sangat puas! Tidak mudah kotor dan mudah dibersihkan. Desainnya simple tapi bikin penampilan langsung lebih stylish."</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Promo Countdown -->
+        <div class="countdown-box rounded-xl p-6 mb-12 text-white text-center">
+            <h2 class="title-font text-3xl font-bold mb-2">PROMO SPESIAL HARI INI!</h2>
+            <p class="text-xl mb-6">Diskon akan berakhir dalam:</p>
+            <div class="flex justify-center gap-4 mb-6">
+                <div class="bg-white text-rose-600 rounded-lg p-3 w-20">
+                    <div class="text-3xl font-bold" id="countdown-hours">12</div>
+                    <div class="text-sm">Jam</div>
+                </div>
+                <div class="bg-white text-rose-600 rounded-lg p-3 w-20">
+                    <div class="text-3xl font-bold" id="countdown-minutes">45</div>
+                    <div class="text-sm">Menit</div>
+                </div>
+                <div class="bg-white text-rose-600 rounded-lg p-3 w-20">
+                    <div class="text-3xl font-bold" id="countdown-seconds">30</div>
+                    <div class="text-sm">Detik</div>
+                </div>
+            </div>
+            <p class="text-lg">Jangan lewatkan kesempatan ini! Harga akan kembali normal setelah countdown selesai.</p>
+        </div>
+        
+        <!-- Order Notes -->
+        <div class="bg-white rounded-xl p-6 mb-12 shadow-md">
+            <h3 class="font-bold text-xl text-rose-700 mb-4">Catatan Penting:</h3>
+            <ul class="space-y-2 text-gray-700">
+                <li class="flex items-start">
+                    <i class="fas fa-truck text-rose-500 mt-1 mr-3"></i>
+                    <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-map-marker-alt text-rose-500 mt-1 mr-3"></i>
+                    <span>Mohon Isi Alamat Dengan Lengkap</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-certificate text-rose-500 mt-1 mr-3"></i>
+                    <span>100% Product Original</span>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Price Section -->
+        <div class="bg-white rounded-xl p-8 mb-12 shadow-lg text-center">
+            <div class="promo-badge bg-rose-600 text-white inline-block px-4 py-2 rounded-full mb-4">
+                <span class="font-bold">PROMO SPESIAL HARI INI</span>
+            </div>
+            <p class="text-lg mb-4">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+            <div class="flex justify-center items-center gap-4 mb-6">
+                <div class="text-4xl font-bold text-rose-600">Rp 187.000</div>
+                <div class="price-cut text-2xl text-gray-500">Rp 271.500</div>
+            </div>
+            <p class="text-green-600 font-bold text-xl mb-6">Anda Hemat Rp 84.500!</p>
+            <img src="https://i.postimg.cc/rwxm3Gyp/05.png" alt="Promo Banner" class="w-full max-w-md mx-auto mb-8">
+            
+            <!-- Order Form -->
+            <div class="max-w-md mx-auto bg-rose-50 p-6 rounded-lg">
+                <h3 class="title-font text-2xl font-bold text-rose-800 mb-6">Form Pemesanan</h3>
+                <!-- OrderOnline Embed Code - v8.0.4 -->
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="rara" data-product-slug="exquisite-leather-bag33" data-product-id="6878cf5dd89f25482b0031fa" id="oo-embed-form-exquisite-leather-bag33-182" data-origin="orderonline">
+                        <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                    </form>
+                </div>
+                <script>
+                    if (typeof xLogError != 'function') {
+                        var xLogError = function (error) {
+                            var req = new XMLHttpRequest();
+                            var payload = JSON.stringify({
+                                url: document.location.href,
+                                line: error.line,
+                                stack: error.stack
+                            });
+                            var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                            req.open('POST', 'https://api.orderonline.id/log', true);
+                            req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                            req.send(params);
+                        };
+                    }
+                    try {
+                        if (typeof xEmbedScript != 'function') {
+                            var xEmbedScript = function () {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                            };
+                        }
+                        if (typeof xEmbedInit != 'function') {
+                            var xEmbedInit = function (w, n) {
+                                if (w.ooe) return;
+                                n = w.ooe = function() {
+                                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                };
+                                if (!w._ooe) w._ooe = n;
+                                n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                            };
+                        }
+                        xEmbedInit(window);
+                        ooe('setup', 'redirect', 'https://rara.orderonline.id');
+                        ooe('init', '5f12ee789d8e8e5e870172ee', '6878cf5dd89f25482b0031fa', '6878cf5dd89f25482b0031fb', 'oo-embed-form-exquisite-leather-bag33-182', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                        if (!window.jQuery) {
+                            !function(w, d, e, v, id, t, s) {
+                                if (d.getElementById(id)) return;
+                                t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                t.addEventListener('load', xEmbedScript);
+                                s = d.getElementsByTagName(e)[0];
+                                s.parentNode.insertBefore(t, s);
+                            }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                        } else {
+                            xEmbedScript();
+                        }
+                    } catch (e) {
+                        xLogError(e);
+                        throw e;
+                    }
+                </script>
+                <!-- End OrderOnline Embed Code -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="dark-rose py-8 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-4">© 2023 Exquisite Leather Bag. All Rights Reserved.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-white hover:text-rose-200">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a href="#" class="text-white hover:text-rose-200">
+                    <i class="fab fa-facebook text-2xl"></i>
+                </a>
+                <a href="#" class="text-white hover:text-rose-200">
+                    <i class="fab fa-whatsapp text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Color Selection
+        const colorOptions = document.querySelectorAll('.color-option');
+        colorOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                colorOptions.forEach(opt => opt.classList.remove('active'));
+                option.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
